@@ -10,13 +10,13 @@ let altura = 1.75; // número
 let estudante = true; // booleano
 
 //arreys e objetos
-let frutas = ["maçã", "banana", "laranja"];
+let frutas = ["maçã", "banana", "laranja"]; //arrey
 let pessoa = {
   nome: "Daniel",
   idade: 17,
   altura: 1.75,
   estudante: true
-}
+} //objeto
 
 //funções
 function somar(a, b) {
