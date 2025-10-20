@@ -69,3 +69,14 @@ let botao = document.querySelector("#botao");
 botao.addEventListener("click", () => {
   avisar2();
 })
+
+let usdInput = document.querySelector("#usd")
+let brlInput = document.querySelector("#brl")
+
+usdInput.addEventListener("Keyup", () => {
+  console.log(usdInput.value)
+})
+
+brlInput.addEventListener("Keyup", () => {
+  console.log(brlInput.value)
+})
